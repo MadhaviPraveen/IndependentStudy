@@ -1,0 +1,111 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin-top: 100px;
+    background-color: #E1E1FE;
+    font-family: Open Sans, Arial, sams-serif;
+    color: #036;
+}
+h1{
+    text-align: center;
+}
+.register{
+    margin-left: 675px ;
+    color: #036;
+}
+/*fieldset{
+    width: 333px;
+    height: 333px;
+}*/
+/*.align-center-with-fixed-width {
+    float: left;
+    width: 500px !important;
+    height: 80px !important;
+    margin: auto;
+}*/
+label{
+    display: block;
+    width:700px;
+    float:left;
+    text-align: right;
+    margin: 10px 5px;
+    clear: left;   
+}
+input,select,textarea{
+    margin: 10px 5px;
+    vertical-align: middle;
+}
+#submit{
+    margin-left: 777px;
+}
+#homePageSubmit{
+    margin-left: 10px;
+}
+#ProfInsertsubmit, #courseInsertSubmit{
+    margin-left: 777px;
+}
+
+#courseuser{
+    display: block;
+    width:700px;
+    float:left;
+    text-align: left;
+    margin: 10px 400px;
+}
+#courseProfessor{
+    display: block;
+    width:700px;
+    float:left;
+    text-align: left;
+    margin: 10px 400px;
+}
+.errormsg{
+    color:red;
+    font-size: 14px;
+    text-align: center;
+}
+.errormsgRegistration{
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+nav{
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    bottom:0;
+    width:200px;
+    background-color: #036;
+}
+nav ul{
+    list-style: none;
+    margin: 100px
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color:#fff;
+    padding: 10px 0;
+    width: 4px;
+}
+/*.active-nav .content{
+    transform: translate3d(200px,0,0);
+}*/
+.username{
+    padding-top: 50px;
+    height: 200px;
+    text-align: center;
+    font-size: 24px; 
+    color: #036;
+}
+.courseinsertform{
+    display: block;
+    padding-top: 50px;
+    height: 200px;
+    text-align: center;
+    font-size: 24px; 
+    color: #110EFE;
+}
